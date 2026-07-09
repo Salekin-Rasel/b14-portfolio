@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.common-btn{
+     background-color: #f15f32;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.common-btn:hover{
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.outline-btn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(255, 81, 0);
+    border: 1px solid rgb(255, 81, 0);
+    cursor: pointer;
+}
+
+header{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    /* margin: auto;
+    padding: 12px 0; */
+}
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.logo-r{
+    color:  rgb(255, 81, 0);
+}
+ul{
+     display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+}
+
+/* hero section style */
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1200px;
+    margin: auto; */
+}
+
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 12px;
+}
+
+.hero-left-p-1{
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+
+.hero-left-btn-parent{
+    margin-top: 12px;
+}
+
+.hero-parent-root{
+    background-color: rgb(253, 228, 205);
+}
+
+
+/* About Us */
+.about-parent{
+    background-color: rgb(253, 228, 205);
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 75px;
+    text-align: center;
+}
+
+.about-parent p{
+    margin: 20px 0;
+
+}
+
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.about-box-parent .box{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* what i do */
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+}
+
+.what-i-do-card-container{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid rgb(255, 208, 187);
+    padding: 8px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.what-i-do-card-container .what-i-do-card p{
+    color: rgb(143, 143, 143);
+}
+
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px 0;
+}
+
+.summary-parent h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.left-right-summary-parent{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-summary-child{
+    margin: 10px;
+    padding: 10px;
+}
+.right-summary-child{
+    margin: 10px;
+    padding: 10px;
+}
+
+.right-summary h3{
+    margin: 0 20px;
+}
+
+
+.left-summary h3{
+    margin: 0 20px;
+}
+
+.my-amazing-work{
+    text-align: center;
+}
+
+.images{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six"
+}
+.images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-1{
+    grid-area: one;
+}
+.image-2{
+    grid-area: two;
+}
+.image-3{
+    grid-area: three;
+}
+.image-4{
+    grid-area: four;
+}
+.image-5{
+    grid-area: five;
+}
+.image-6{
+    grid-area: six;
+}
+
+/* foooter */
+.footer-parent{
+    text-align: center;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 15px;
+    background-color: rgb(255, 246, 241);
+    padding: 20px;
+    border-radius: 8px;
+
+}
+footer form{
+    padding: 20px;
+}
+
+footer form input, textarea{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+
+}
+.left-footer-parent p{
+    margin: 10px 0;
+}
+.footer-icon-parent{
+    
+}
